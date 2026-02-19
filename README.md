@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Chester%20Guan&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=healthcare%20AI%20%C2%B7%20systems%20builder%20%C2%B7%20Gainesville%20FL&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Chester%20Guan&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=data%20infra%20%C2%B7%20clinical%20AI%20systems%20%C2%B7%20Gainesville%20FL&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn"/>
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=I+teach+machines+to+watch+over+patients.;Then+I+build+the+guardrails+so+you+can+trust+them." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=I+build+the+data+pipelines+that+feed+clinical+AI.;Then+I+build+the+guardrails+so+you+can+trust+it." alt="Typing SVG" />
 
 </div>
 
@@ -19,9 +19,9 @@
 
 I'm a researcher and engineer at the [University of Florida](https://ic3.center.ufl.edu/) — been here long enough to know the hospital WiFi passwords. I split my time between two labs: **IC3** (Intelligent Clinical Care Center) and **PRISMAp** (Precision & Intelligent Systems in Medicine).
 
-The short version: I spent years training models to predict bad things before they happen — delirium, kidney failure, surgical complications. Published 25+ papers on it across [Nature Scientific Reports](https://www.nature.com/articles/s41598-025-22634-7), [JAMA Surgery](https://jamanetwork.com/journals/jamasurgery), [JMIR](https://medinform.jmir.org/), and ICLR workshops. 300+ citations. Multiple [NIH grants](https://reporter.nih.gov/) (R01, R21, K01, OT2) funded that work.
+The short version: I build the data infrastructure and systems that make clinical AI actually work — ETL pipelines, EHR data wrangling, embedding models into production, making sure the data is clean and the systems stay up. I've been part of 25+ papers across [Nature Scientific Reports](https://www.nature.com/articles/s41598-025-22634-7), [JAMA Surgery](https://jamanetwork.com/journals/jamasurgery), [JMIR](https://medinform.jmir.org/), and ICLR workshops. 300+ citations. Multiple [NIH grants](https://reporter.nih.gov/) (R01, R21, K01, OT2) funded that work.
 
-Then I realized: **predictions alone don't save anyone.** You need systems. Systems that clinicians actually use, that run in real time, that you can *prove* did the right thing. So now I build those too.
+The thing is — someone has to take these models off the researchers' laptops and get them running in a real hospital. That's me. **Models don't save patients. Systems do.** So I build the plumbing, the guardrails, and the infrastructure that makes clinical AI deployable.
 
 **MS in Electrical & Computer Engineering**, UF. Data Scientist III, Department of Medicine.
 
@@ -29,7 +29,7 @@ Then I realized: **predictions alone don't save anyone.** You need systems. Syst
 
 ### What I've published
 
-I like giving my models weird fruit names. Here's what came out of it:
+Our lab has a thing for fruit names. Here's what I helped build the data and systems for:
 
 | Paper | TL;DR | Scale |
 |:------|:------|:------|
@@ -65,7 +65,7 @@ I like giving my models weird fruit names. Here's what came out of it:
 
 ### What I'm building now
 
-Predictions are nice. But I got tired of models sitting in Jupyter notebooks while clinicians still drown in paperwork. So now I build the infrastructure layer.
+I got tired of watching good models sit in Jupyter notebooks while clinicians still drown in paperwork. So now I build the infrastructure that gets AI out of the lab and into the clinic.
 
 ```
   ┌──────────────────────────────────────────┐
@@ -125,20 +125,20 @@ Predictions are nice. But I got tired of models sitting in Jupyter notebooks whi
 ```rust
 impl Chester {
     fn day_job(&self) -> &str {
-        "mass ECE @ UF · data scientist III · IC3 + PRISMAp"
+        "MS ECE @ UF · data scientist III · IC3 + PRISMAp"
     }
 
-    fn things_i_care_about(&self) -> Vec<&str> {
+    fn what_i_actually_do(&self) -> Vec<&str> {
         vec![
-            "can you prove what your AI did?",
-            "can the patient say no?",
-            "does it work at 3am when the senior resident is asleep?",
-            "would you trust it with your mom's chart?",
+            "wrangle EHR data into something models can eat",
+            "build ETL pipelines that don't break at 3am",
+            "embed models into systems clinicians actually use",
+            "make sure the whole thing is auditable and trustworthy",
         ]
     }
 
     fn tools(&self) -> Vec<&str> {
-        vec!["Rust", "Python", "TypeScript", "FHIR R4"]
+        vec!["Rust", "Python", "TypeScript", "SQL", "FHIR R4"]
     }
 
     fn funded_by(&self) -> Vec<&str> {
