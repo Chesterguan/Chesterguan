@@ -148,53 +148,47 @@ That's what I build now.
 <table>
 <tr>
 <td width="50%" valign="top">
-
-#### [PSDL](https://github.com/Chesterguan/PSDL) &nbsp; `Python` &nbsp; ⭐ 9
-Patient Scenario Definition Language — write clinical scenarios as structured, executable definitions.
-
-- Deterministic test cases for clinical AI
-- Reproducible across environments
-- Human-readable, machine-parseable
-- Foundation for clinical simulation
-
-#### VERITAS &nbsp; `Rust` &nbsp; *(coming soon)*
-Lightweight, deterministic, policy-bound execution runtime for AI agents in regulated environments.
-
-```
-State → Policy → Capability → Agent → Verify → Audit
-```
-
-- Deny-by-default policy engine (TOML)
-- SHA-256 hash-chained audit trail
-- JSON Schema + semantic verification
-- 5 healthcare scenarios, 58 tests
-- Multi-agent pipeline orchestration
-- `RequireApproval` for human-in-the-loop
-
+<h4><a href="https://github.com/Chesterguan/HAVEN">HAVEN</a> &nbsp; <code>TypeSpec</code> &nbsp; v2.0</h4>
+<p>Open protocol for patient-controlled health data. Not a company. Not a product. An infrastructure standard.</p>
+<ul>
+<li>4 primitives: Health Asset, Consent, Provenance, Contribution</li>
+<li>Content-addressed (SHA-256), Ed25519-signed audit</li>
+<li>Machine-executable consent — silence = denial</li>
+<li>Builds on FHIR R4 + OMOP CDM</li>
+<li>Whitepapers in EN, ZH, FR</li>
+<li>Formal specs, test vectors, implementation guide</li>
+</ul>
+<h4><a href="https://github.com/Chesterguan/PSDL">PSDL</a> &nbsp; <code>Python</code> &nbsp; ⭐ 9</h4>
+<p>Patient Scenario Definition Language — write clinical scenarios as structured, executable definitions.</p>
+<ul>
+<li>Deterministic test cases for clinical AI</li>
+<li>Reproducible across environments</li>
+<li>Human-readable, machine-parseable</li>
+<li>Foundation for clinical simulation</li>
+</ul>
 </td>
 <td width="50%" valign="top">
-
-#### [HAVEN](https://github.com/Chesterguan/HAVEN) &nbsp; `TypeSpec` &nbsp; v2.0
-Open protocol for patient-controlled health data. Not a company. Not a product. An infrastructure standard.
-
-- 4 primitives: Health Asset, Consent, Provenance, Contribution
-- Content-addressed (SHA-256), Ed25519-signed audit
-- Machine-executable consent — silence = denial
-- Builds on FHIR R4 + OMOP CDM
-- Whitepapers in EN, ZH, FR
-- Formal specs, test vectors, implementation guide
-
-#### [AesculTwin](https://github.com/Chesterguan/AesculTwin) &nbsp; `TypeScript` &nbsp; ⭐ 2
-AI-powered surgeon assistance system.
-
-#### ClinicClaw &nbsp; `Rust` &nbsp; *(design phase)*
-AI-native, FHIR R4-native Hospital Information System.
-
-- Real Claude API calls for clinical intelligence
-- Medplum FHIR R4 backend
-- VERITAS-governed agent actions
-- Ambient documentation, smart orders, prior auth
-
+<h4>VERITAS &nbsp; <code>Rust</code> &nbsp; <em>(coming soon)</em></h4>
+<p>Lightweight, deterministic, policy-bound execution runtime for AI agents in regulated environments.</p>
+<code>State → Policy → Capability → Agent → Verify → Audit</code>
+<ul>
+<li>Deny-by-default policy engine (TOML)</li>
+<li>SHA-256 hash-chained audit trail</li>
+<li>JSON Schema + semantic verification</li>
+<li>5 healthcare scenarios, 58 tests</li>
+<li>Multi-agent pipeline orchestration</li>
+<li><code>RequireApproval</code> for human-in-the-loop</li>
+</ul>
+<h4>ClinicClaw &nbsp; <code>Rust</code> &nbsp; <em>(design phase)</em></h4>
+<p>AI-native, FHIR R4-native Hospital Information System.</p>
+<ul>
+<li>Real Claude API calls for clinical intelligence</li>
+<li>Medplum FHIR R4 backend</li>
+<li>VERITAS-governed agent actions</li>
+<li>Ambient documentation, smart orders, prior auth</li>
+</ul>
+<h4><a href="https://github.com/Chesterguan/AesculTwin">AesculTwin</a> &nbsp; <code>TypeScript</code> &nbsp; ⭐ 2</h4>
+<p>AI-powered surgeon assistance system.</p>
 </td>
 </tr>
 </table>
