@@ -114,23 +114,29 @@ That's what I build now.
 ### The Stack I'm Building
 
 ```
-                    ┌──────────────────────────────────────────┐
-                    │           ClinicClaw (coming soon)        │
-                    │     AI-native FHIR-native HIS system     │
-                    │   Ambient docs · Smart orders · Prior auth│
-                    ├──────────────────────────────────────────┤
-                    │              VERITAS                       │
-                    │     Policy-bound AI execution runtime     │
-                    │  Deny-by-default · SHA-256 audit chain    │
-                    ├──────────────────────────────────────────┤
-                    │          PSDL + PSDL Inspector             │
-                    │    Patient Scenario Definition Language    │
-                    │   Deterministic clinical test scenarios    │
-                    └──────────────────────────────────────────┘
+  ┌──────────────────────────────────────────┐
+  │           ClinicClaw (coming soon)        │
+  │     AI-native FHIR-native HIS system     │
+  │   Ambient docs · Smart orders · Prior auth│
+  ├──────────────────────────────────────────┤
+  │              VERITAS                       │
+  │     Policy-bound AI execution runtime     │
+  │  Deny-by-default · SHA-256 audit chain    │
+  ├──────────────────────────────────────────┤
+  │          PSDL + PSDL Inspector             │
+  │    Patient Scenario Definition Language    │
+  │   Deterministic clinical test scenarios    │
+  └──────────────────────────────────────────┘
+              ┌──────────────────────────────────────────┐
+              │         HAVEN Protocol (v2.0)              │
+              │  Patient-controlled health data exchange   │
+              │  Consent · Provenance · Contribution value │
+              └──────────────────────────────────────────┘
 ```
 
 | Layer | What it does | Status |
 |:------|:-------------|:------:|
+| **[HAVEN](https://github.com/Chesterguan/HAVEN)** | Open protocol for patient-controlled health data — consent, provenance, value | `v2.0 Draft` |
 | **[PSDL](https://github.com/Chesterguan/PSDL)** | Define clinical scenarios as code — reproducible, testable, shareable | `Active` |
 | **VERITAS** | Runtime that enforces policy on every AI agent action, with cryptographic audit trails | `Active` |
 | **ClinicClaw** | AI-native HIS — real LLM calls, real FHIR R4, real clinical workflows, governed by VERITAS | `Design` |
@@ -168,11 +174,18 @@ State → Policy → Capability → Agent → Verify → Audit
 </td>
 <td width="50%" valign="top">
 
+#### [HAVEN](https://github.com/Chesterguan/HAVEN) &nbsp; `TypeSpec` &nbsp; v2.0
+Open protocol for patient-controlled health data. Not a company. Not a product. An infrastructure standard.
+
+- 4 primitives: Health Asset, Consent, Provenance, Contribution
+- Content-addressed (SHA-256), Ed25519-signed audit
+- Machine-executable consent — silence = denial
+- Builds on FHIR R4 + OMOP CDM
+- Whitepapers in EN, ZH, FR
+- Formal specs, test vectors, implementation guide
+
 #### [AesculTwin](https://github.com/Chesterguan/AesculTwin) &nbsp; `TypeScript` &nbsp; ⭐ 2
 AI-powered surgeon assistance system.
-
-#### [HAVEN](https://github.com/Chesterguan/HAVEN) &nbsp; `TypeSpec`
-Health Asset Value & Exchange Network.
 
 #### ClinicClaw &nbsp; `Rust` &nbsp; *(design phase)*
 AI-native, FHIR R4-native Hospital Information System.
