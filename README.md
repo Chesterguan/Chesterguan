@@ -24,7 +24,7 @@
 
 Data Scientist III at **University of Florida Department of Medicine**, working at the intersection of [Intelligent Clinical Care Center (IC3)](https://ic3.center.ufl.edu/) and [PRISMAp](https://prismap.medicine.ufl.edu/) — two labs pioneering AI for critical care.
 
-I build systems that make AI **auditable, verifiable, and safe enough for the ICU**. My research spans deep learning on electronic health records, multimodal patient monitoring, and federated learning — all with one goal: trustworthy clinical AI.
+I build systems that make AI **auditable, verifiable, and safe enough for clinical deployment**. My research spans deep learning on electronic health records, surgical risk prediction ([MySurgeryRisk](https://mysurgeryrisk.medicine.ufl.edu/)), multimodal patient monitoring, and federated learning — across ICU, perioperative, and inpatient settings. Multiple NIH-funded projects (R01, R21, K01, OT2).
 
 **MS in Electrical & Computer Engineering** from University of Florida. 25+ publications. 300+ citations.
 
@@ -32,11 +32,12 @@ I build systems that make AI **auditable, verifiable, and safe enough for the IC
 
 ### Research — Selected Publications
 
-I work on predicting what happens to patients before it happens — delirium, organ failure, postoperative complications — using every signal the ICU produces.
+I work on predicting what happens to patients before it happens — delirium, organ failure, surgical complications, kidney injury — using every signal the hospital produces, from ICU to OR to general ward.
 
 ```
                     ┌─────────────────────────────────────────────────────┐
                     │  2025                                               │
+                    │  ├── MySurgeryRisk Validation (508k pts, OneFlorida)│
                     │  ├── MANDARIN (MoE framework, delirium/coma, ICU)  │
                     │  └── DeLLiriuM (LLM, delirium prediction, 104k pts)│
                     │                                                     │
@@ -44,16 +45,19 @@ I work on predicting what happens to patients before it happens — delirium, or
                     │  ├── MANGO (multimodal transformer, ICU outcomes)   │
                     │  ├── Transparent AI (explainable postop prediction) │
                     │  ├── Global Contrastive Training (multimodal EHR)   │
+                    │  ├── Risk-Specific Training (JAMA Surgery)           │
                     │  ├── Federated Learning (postop complications)      │
+                    │  ├── EHR Data Quality (scoping review, JMIR)        │
                     │  ├── Selective State Space Models (brain dysfunction)│
                     │  ├── Temporal Cross-Attention (ICLR 2024 Workshop)  │
                     │  └── APRICOT (ICU acuity prediction)                │
                     │                                                     │
                     │  2023                                               │
+                    │  ├── ML-FHIR Clinical Info Systems (scoping, JMIR)  │
                     │  ├── AI-Enhanced ICU (pervasive sensing)            │
                     │  ├── Delirium from Ambient Noise/Light (deep learn) │
                     │  ├── Acute Brain Dysfunction (computable phenotypes)│
-                    │  ├── AKI Multistate Analysis                        │
+                    │  ├── AKI Multistate Analysis (Sci Reports)          │
                     │  └── Acute Illness Phenotypes (temporal clustering) │
                     │                                                     │
                     │  2020                                               │
@@ -65,6 +69,7 @@ I work on predicting what happens to patients before it happens — delirium, or
 
 | Paper | What it does | Scale |
 |:------|:-------------|:------|
+| **[MySurgeryRisk Validation](https://arxiv.org/abs/2506.21814)** | Surgical complication & mortality prediction (multicenter) | 508k encounters, OneFlorida, AUROC 0.92-0.95 |
 | **[DeLLiriuM](https://arxiv.org/abs/2410.17363)** | First LLM for delirium prediction from structured EHR | 104k patients, 195 hospitals, AUROC 0.82 |
 | **[MANDARIN](https://arxiv.org/abs/2503.06059)** | Mixture-of-Experts for dynamic delirium & coma prediction | 92k patients, 2 hospitals |
 | **[MANGO](https://arxiv.org/abs/2412.17832)** | Multimodal acuity transformer for ICU outcomes | Multimodal EHR fusion |
@@ -76,14 +81,17 @@ I work on predicting what happens to patients before it happens — delirium, or
 <summary><b>More publications (25+ papers)</b></summary>
 <br>
 
+- **Risk-Specific Training Cohorts**: Addressing class imbalance in surgical risk prediction — *JAMA Surgery* (2024)
 - **Transparent AI**: Explainable interface for predicting postoperative complications (2024)
 - **Global Contrastive Training**: Multimodal EHR with language supervision (2024)
+- **EHR Data Quality**: Scoping review on data quality & performance assessments — *JMIR Med Inform* (2024)
 - **Selective State Space Models**: Multi-cohort acute brain dysfunction prediction (2024)
 - **AKI Prediction**: External & internal validation for non-critical care (2024)
+- **ML-FHIR Clinical Info Systems**: Scoping review on FHIR + ML — *JMIR Med Inform* (2023)
 - **AI-Enhanced ICU**: Revolutionizing patient care with pervasive sensing (2023)
 - **Delirium from Ambient Signals**: Noise & light as predictors in the ICU (2023)
 - **Computable Phenotypes**: Characterizing brain dysfunction in the ICU (2023)
-- **AKI Multistate Analysis**: Longitudinal kidney injury trajectories (2023)
+- **AKI Multistate Analysis**: Longitudinal kidney injury trajectories — *Scientific Reports* (2023)
 - **Acute Illness Phenotypes**: Deep temporal interpolation & clustering (2023)
 - **Deep Interpolation Network**: Clustering physiologic time series (2020)
 
@@ -190,11 +198,16 @@ impl Chester {
 
     fn research(&self) -> Vec<&str> {
         vec![
-            "Deep learning on EHR",    // 104k patients, 195 hospitals
-            "Multimodal ICU sensing",   // vitals + ambient + waveforms
+            "Surgical risk prediction", // MySurgeryRisk, 508k encounters
+            "Deep learning on EHR",     // ICU, periop, inpatient
+            "Multimodal sensing",       // vitals + ambient + waveforms
             "Federated learning",       // privacy-preserving, multi-center
             "LLMs for clinical data",   // structured EHR, not just notes
         ]
+    }
+
+    fn funded_by(&self) -> Vec<&str> {
+        vec!["NIH R01", "NIH R21", "NIH K01", "NIH OT2"]
     }
 
     fn philosophy(&self) -> &str {
