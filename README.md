@@ -1,237 +1,148 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Chester%20Guan&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=healthcare%20AI%20%C2%B7%20systems%20builder%20%C2%B7%20Gainesville%20FL&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn"/>
+
 <div align="center">
 
-```
- ██████╗██╗  ██╗███████╗███████╗████████╗███████╗██████╗
-██╔════╝██║  ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗
-██║     ███████║█████╗  ███████╗   ██║   █████╗  ██████╔╝
-██║     ██╔══██║██╔══╝  ╚════██║   ██║   ██╔══╝  ██╔══██╗
-╚██████╗██║  ██║███████╗███████║   ██║   ███████╗██║  ██║
- ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
-```
+<a href="https://scholar.google.com/citations?user=VsYXfV8AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-300+_citations-4285F4?style=flat&logo=googlescholar&logoColor=white"/></a>
+<a href="https://twitter.com/Chester_Guan16"><img src="https://img.shields.io/badge/𝕏-Chester__Guan16-000000?style=flat&logo=x"/></a>
+<a href="https://chesterguan.github.io/"><img src="https://img.shields.io/badge/Web-chesterguan.github.io-4285F4?style=flat&logo=googlechrome&logoColor=white"/></a>
+<a href="mailto:ziyuan.guan@ufl.edu"><img src="https://img.shields.io/badge/UF-Dept.%20of%20Medicine-FA4616?style=flat"/></a>
 
-**`> Building trusted AI systems for healthcare_`**
+<br/><br/>
 
-[![Scholar](https://img.shields.io/badge/Google_Scholar-300+_citations-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=VsYXfV8AAAAJ)
-[![Twitter](https://img.shields.io/badge/𝕏-Chester__Guan16-000000?style=flat&logo=x)](https://twitter.com/Chester_Guan16)
-[![Site](https://img.shields.io/badge/Web-chesterguan.github.io-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://chesterguan.github.io/)
-[![UF](https://img.shields.io/badge/UF-Dept.%20of%20Medicine-FA4616?style=flat)](mailto:ziyuan.guan@ufl.edu)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=I+teach+machines+to+watch+over+patients.;Then+I+build+the+guardrails+so+you+can+trust+them." alt="Typing SVG" />
 
 </div>
 
 ---
 
-### Who I Am
+### Hey, I'm Chester.
 
-Data Scientist III at **University of Florida Department of Medicine**, working at the intersection of [Intelligent Clinical Care Center (IC3)](https://ic3.center.ufl.edu/) and [PRISMAp](https://prismap.medicine.ufl.edu/) — two labs pioneering AI for critical care.
+I'm a researcher and engineer at the [University of Florida](https://ic3.center.ufl.edu/) — been here long enough to know the hospital WiFi passwords. I split my time between two labs: **IC3** (Intelligent Clinical Care Center) and **PRISMAp** (Precision & Intelligent Systems in Medicine).
 
-I build systems that make AI **auditable, verifiable, and safe enough for clinical deployment**. My research spans deep learning on electronic health records, surgical risk prediction ([MySurgeryRisk](https://mysurgeryrisk.medicine.ufl.edu/)), multimodal patient monitoring, and federated learning — across ICU, perioperative, and inpatient settings. Multiple NIH-funded projects (R01, R21, K01, OT2).
+The short version: I spent years training models to predict bad things before they happen — delirium, kidney failure, surgical complications. Published 25+ papers on it across [Nature Scientific Reports](https://www.nature.com/articles/s41598-025-22634-7), [JAMA Surgery](https://jamanetwork.com/journals/jamasurgery), [JMIR](https://medinform.jmir.org/), and ICLR workshops. 300+ citations. Multiple [NIH grants](https://reporter.nih.gov/) (R01, R21, K01, OT2) funded that work.
 
-**MS in Electrical & Computer Engineering** from University of Florida. 25+ publications. 300+ citations.
+Then I realized: **predictions alone don't save anyone.** You need systems. Systems that clinicians actually use, that run in real time, that you can *prove* did the right thing. So now I build those too.
+
+**MS in Electrical & Computer Engineering**, UF. Data Scientist III, Department of Medicine.
 
 ---
 
-### Research — Selected Publications
+### What I've published
 
-I work on predicting what happens to patients before it happens — delirium, organ failure, surgical complications, kidney injury — using every signal the hospital produces, from ICU to OR to general ward.
+I like giving my models weird fruit names. Here's what came out of it:
 
-```
-                    ┌─────────────────────────────────────────────────────┐
-                    │  2025                                               │
-                    │  ├── MySurgeryRisk Validation (508k pts, OneFlorida)│
-                    │  ├── MANDARIN (MoE framework, delirium/coma, ICU)  │
-                    │  └── DeLLiriuM (LLM, delirium prediction, 104k pts)│
-                    │                                                     │
-                    │  2024                                               │
-                    │  ├── MANGO (multimodal transformer, ICU outcomes)   │
-                    │  ├── Transparent AI (explainable postop prediction) │
-                    │  ├── Global Contrastive Training (multimodal EHR)   │
-                    │  ├── Risk-Specific Training (JAMA Surgery)           │
-                    │  ├── Federated Learning (postop complications)      │
-                    │  ├── EHR Data Quality (scoping review, JMIR)        │
-                    │  ├── Selective State Space Models (brain dysfunction)│
-                    │  ├── Temporal Cross-Attention (ICLR 2024 Workshop)  │
-                    │  └── APRICOT (ICU acuity prediction)                │
-                    │                                                     │
-                    │  2023                                               │
-                    │  ├── ML-FHIR Clinical Info Systems (scoping, JMIR)  │
-                    │  ├── AI-Enhanced ICU (pervasive sensing)            │
-                    │  ├── Delirium from Ambient Noise/Light (deep learn) │
-                    │  ├── Acute Brain Dysfunction (computable phenotypes)│
-                    │  ├── AKI Multistate Analysis (Sci Reports)          │
-                    │  └── Acute Illness Phenotypes (temporal clustering) │
-                    │                                                     │
-                    │  2020                                               │
-                    │  └── Deep Interpolation Network (physiologic ts)    │
-                    └─────────────────────────────────────────────────────┘
-```
-
-**Highlights:**
-
-| Paper | What it does | Scale |
-|:------|:-------------|:------|
-| **[MySurgeryRisk Validation](https://arxiv.org/abs/2506.21814)** | Surgical complication & mortality prediction (multicenter) | 508k encounters, OneFlorida, AUROC 0.92-0.95 |
-| **[DeLLiriuM](https://arxiv.org/abs/2410.17363)** | First LLM for delirium prediction from structured EHR | 104k patients, 195 hospitals, AUROC 0.82 |
-| **[MANDARIN](https://arxiv.org/abs/2503.06059)** | Mixture-of-Experts for dynamic delirium & coma prediction | 92k patients, 2 hospitals |
-| **[MANGO](https://arxiv.org/abs/2412.17832)** | Multimodal acuity transformer for ICU outcomes | Multimodal EHR fusion |
-| **[APRICOT-Mamba](https://arxiv.org/abs/2311.02026)** | Predicting ICU stability, transitions, and life-sustaining therapies | 75k patients, 147 hospitals |
-| **[Temporal Cross-Attention](https://arxiv.org/abs/2403.04012)** | Dynamic tokenization of multimodal EHR | ICLR 2024 Workshop |
-| **[Federated Learning](https://arxiv.org/abs/2404.06641)** | Privacy-preserving postop complication prediction | 108k patients, multi-center |
+| Paper | TL;DR | Scale |
+|:------|:------|:------|
+| [**MySurgeryRisk**](https://arxiv.org/abs/2506.21814) | "Will this surgery go wrong?" — multicenter validation | 508k surgeries, AUROC 0.95 |
+| [**DeLLiriuM**](https://arxiv.org/abs/2410.17363) | LLM that predicts delirium from structured EHR | 104k patients, 195 hospitals |
+| [**MANDARIN**](https://arxiv.org/abs/2503.06059) | Mixture-of-Experts for delirium + coma | 92k ICU patients |
+| [**MANGO**](https://arxiv.org/abs/2412.17832) | Multimodal transformer for ICU acuity | Vitals + labs + notes fused |
+| [**APRICOT-Mamba**](https://arxiv.org/abs/2311.02026) | State-space model for real-time ICU prediction | 75k patients, 147 hospitals |
+| [**Temporal Cross-Attn**](https://arxiv.org/abs/2403.04012) | Dynamic EHR tokenization | ICLR 2024 Workshop |
+| [**Federated Learning**](https://arxiv.org/abs/2404.06641) | Predict postop complications without sharing data | Multi-center, privacy-first |
 
 <details>
-<summary><b>More publications (25+ papers)</b></summary>
-<br>
+<summary>more papers (25+ total) ...</summary>
+<br/>
 
-- **Risk-Specific Training Cohorts**: Addressing class imbalance in surgical risk prediction — *JAMA Surgery* (2024)
-- **Transparent AI**: Explainable interface for predicting postoperative complications (2024)
-- **Global Contrastive Training**: Multimodal EHR with language supervision (2024)
-- **EHR Data Quality**: Scoping review on data quality & performance assessments — *JMIR Med Inform* (2024)
-- **Selective State Space Models**: Multi-cohort acute brain dysfunction prediction (2024)
-- **AKI Prediction**: External & internal validation for non-critical care (2024)
-- **ML-FHIR Clinical Info Systems**: Scoping review on FHIR + ML — *JMIR Med Inform* (2023)
-- **AI-Enhanced ICU**: Revolutionizing patient care with pervasive sensing (2023)
-- **Delirium from Ambient Signals**: Noise & light as predictors in the ICU (2023)
-- **Computable Phenotypes**: Characterizing brain dysfunction in the ICU (2023)
-- **AKI Multistate Analysis**: Longitudinal kidney injury trajectories — *Scientific Reports* (2023)
-- **Acute Illness Phenotypes**: Deep temporal interpolation & clustering (2023)
-- **Deep Interpolation Network**: Clustering physiologic time series (2020)
+- **Risk-Specific Training Cohorts** — class imbalance in surgical prediction — *JAMA Surgery* (2024)
+- **Transparent AI** — explainable postop complication interface (2024)
+- **Global Contrastive Training** — multimodal EHR + language supervision (2024)
+- **EHR Data Quality** — scoping review — *JMIR Med Inform* (2024)
+- **Selective State Space Models** — brain dysfunction across cohorts (2024)
+- **AKI Prediction** — external validation for non-critical care (2024)
+- **ML + FHIR** — scoping review on FHIR-native ML systems — *JMIR Med Inform* (2023)
+- **AI-Enhanced ICU** — pervasive sensing in critical care (2023)
+- **Delirium from Ambient Signals** — noise and light as ICU predictors (2023)
+- **Computable Phenotypes** — brain dysfunction characterization (2023)
+- **AKI Multistate Analysis** — kidney injury trajectories — *Scientific Reports* (2023)
+- **Acute Illness Phenotypes** — temporal clustering (2023)
+- **Deep Interpolation Network** — physiologic time series (2020)
 
 </details>
 
 ---
 
-### The Problem I'm Solving Now
+### What I'm building now
 
-Research predicts outcomes. But **predictions don't save patients — systems do.**
-
-Every day, clinicians spend **2+ hours on documentation** instead of patients. AI agents could automate this — but in healthcare, an unaudited AI decision can harm someone, violate HIPAA, or fail in court.
-
-**The industry has a trust gap.** AI frameworks build agents. Governance frameworks write policy documents. Nobody enforces policy *at runtime*, with cryptographic evidence, on every single agent action.
-
-That's what I build now.
-
----
-
-### The Stack I'm Building
+Predictions are nice. But I got tired of models sitting in Jupyter notebooks while clinicians still drown in paperwork. So now I build the infrastructure layer.
 
 ```
   ┌──────────────────────────────────────────┐
   │           ClinicClaw (coming soon)        │
-  │     AI-native FHIR-native HIS system     │
-  │   Ambient docs · Smart orders · Prior auth│
+  │     AI agents that do real clinical work  │
+  │   ambient docs · smart orders · prior auth│
   ├──────────────────────────────────────────┤
   │              VERITAS                       │
-  │     Policy-bound AI execution runtime     │
-  │  Deny-by-default · SHA-256 audit chain    │
+  │     every agent action: checked, logged   │
+  │  deny-by-default · SHA-256 audit chain    │
   ├──────────────────────────────────────────┤
-  │          PSDL + PSDL Inspector             │
-  │    Patient Scenario Definition Language    │
-  │   Deterministic clinical test scenarios    │
+  │            HAVEN Protocol                  │
+  │    patients own their data. period.       │
+  │   consent · provenance · value tracking   │
+  ├──────────────────────────────────────────┤
+  │          PSDL                              │
+  │     clinical scenarios as code            │
   └──────────────────────────────────────────┘
-              ┌──────────────────────────────────────────┐
-              │         HAVEN Protocol (v2.0)              │
-              │  Patient-controlled health data exchange   │
-              │  Consent · Provenance · Contribution value │
-              └──────────────────────────────────────────┘
 ```
-
-| Layer | What it does | Status |
-|:------|:-------------|:------:|
-| **[HAVEN](https://github.com/Chesterguan/HAVEN)** | Open protocol for patient-controlled health data — consent, provenance, value | `v2.0 Draft` |
-| **[PSDL](https://github.com/Chesterguan/PSDL)** | Define clinical scenarios as code — reproducible, testable, shareable | `Active` |
-| **VERITAS** | Runtime that enforces policy on every AI agent action, with cryptographic audit trails | `Active` |
-| **ClinicClaw** | AI-native HIS — real LLM calls, real FHIR R4, real clinical workflows, governed by VERITAS | `Design` |
-
----
-
-### Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/Chesterguan/HAVEN">HAVEN</a> &nbsp; <code>TypeSpec</code> &nbsp; v2.0</h4>
-<p>Open protocol for patient-controlled health data. Not a company. Not a product. An infrastructure standard.</p>
+<h4><a href="https://github.com/Chesterguan/HAVEN">HAVEN Protocol</a> &nbsp; <code>TypeSpec</code> &nbsp; v2.0</h4>
+<p>Your blood test results train AI models you'll never see. You can't audit access. You can't set conditions. You don't share in the value. HAVEN fixes that.</p>
 <ul>
 <li>4 primitives: Health Asset, Consent, Provenance, Contribution</li>
-<li>Content-addressed (SHA-256), Ed25519-signed audit</li>
-<li>Machine-executable consent — silence = denial</li>
-<li>Builds on FHIR R4 + OMOP CDM</li>
-<li>Whitepapers in EN, ZH, FR</li>
-<li>Formal specs, test vectors, implementation guide</li>
+<li>Content-addressed (SHA-256), Ed25519-signed</li>
+<li>Silence = denial. Always.</li>
+<li>FHIR R4 + OMOP CDM native</li>
+<li>Formal specs, test vectors, 3 language whitepapers</li>
 </ul>
 <h4><a href="https://github.com/Chesterguan/PSDL">PSDL</a> &nbsp; <code>Python</code> &nbsp; ⭐ 9</h4>
-<p>Patient Scenario Definition Language — write clinical scenarios as structured, executable definitions.</p>
-<ul>
-<li>Deterministic test cases for clinical AI</li>
-<li>Reproducible across environments</li>
-<li>Human-readable, machine-parseable</li>
-<li>Foundation for clinical simulation</li>
-</ul>
+<p>Clinical scenarios as code. Write a patient case once, run it everywhere, get deterministic results.</p>
 </td>
 <td width="50%" valign="top">
 <h4>VERITAS &nbsp; <code>Rust</code> &nbsp; <em>(coming soon)</em></h4>
-<p>Lightweight, deterministic, policy-bound execution runtime for AI agents in regulated environments.</p>
-<code>State → Policy → Capability → Agent → Verify → Audit</code>
+<p>Before an AI agent touches a patient record, VERITAS checks the policy, logs the action, and verifies the output. Every. Single. Time.</p>
 <ul>
-<li>Deny-by-default policy engine (TOML)</li>
+<li>Deny-by-default policy engine</li>
 <li>SHA-256 hash-chained audit trail</li>
-<li>JSON Schema + semantic verification</li>
 <li>5 healthcare scenarios, 58 tests</li>
-<li>Multi-agent pipeline orchestration</li>
-<li><code>RequireApproval</code> for human-in-the-loop</li>
+<li><code>RequireApproval</code> = human stays in the loop</li>
 </ul>
 <h4>ClinicClaw &nbsp; <code>Rust</code> &nbsp; <em>(design phase)</em></h4>
-<p>AI-native, FHIR R4-native Hospital Information System.</p>
-<ul>
-<li>Real Claude API calls for clinical intelligence</li>
-<li>Medplum FHIR R4 backend</li>
-<li>VERITAS-governed agent actions</li>
-<li>Ambient documentation, smart orders, prior auth</li>
-</ul>
+<p>The actual hospital system. Real LLM calls, real FHIR, real clinical workflows — all governed by VERITAS.</p>
 <h4><a href="https://github.com/Chesterguan/AesculTwin">AesculTwin</a> &nbsp; <code>TypeScript</code> &nbsp; ⭐ 2</h4>
-<p>AI-powered surgeon assistance system.</p>
+<p>AI-powered surgeon assistance.</p>
 </td>
 </tr>
 </table>
 
 ---
 
-### Technical DNA
+### How I think about this
 
 ```rust
 impl Chester {
-    fn background(&self) -> &str {
-        "MS ECE @ UF · Data Scientist III · IC3 + PRISMAp labs"
+    fn day_job(&self) -> &str {
+        "mass ECE @ UF · data scientist III · IC3 + PRISMAp"
     }
 
-    fn research(&self) -> Vec<&str> {
+    fn things_i_care_about(&self) -> Vec<&str> {
         vec![
-            "Surgical risk prediction", // MySurgeryRisk, 508k encounters
-            "Deep learning on EHR",     // ICU, periop, inpatient
-            "Multimodal sensing",       // vitals + ambient + waveforms
-            "Federated learning",       // privacy-preserving, multi-center
-            "LLMs for clinical data",   // structured EHR, not just notes
+            "can you prove what your AI did?",
+            "can the patient say no?",
+            "does it work at 3am when the senior resident is asleep?",
+            "would you trust it with your mom's chart?",
         ]
+    }
+
+    fn tools(&self) -> Vec<&str> {
+        vec!["Rust", "Python", "TypeScript", "FHIR R4"]
     }
 
     fn funded_by(&self) -> Vec<&str> {
         vec!["NIH R01", "NIH R21", "NIH K01", "NIH OT2"]
-    }
-
-    fn philosophy(&self) -> &str {
-        "Control over autonomy. Evidence over intelligence. Determinism over emergence."
-    }
-
-    fn stack(&self) -> Vec<&str> {
-        vec![
-            "Rust",        // when correctness matters
-            "Python",      // when speed-to-insight matters
-            "TypeScript",  // when the UI matters
-            "FHIR R4",    // because healthcare has standards
-        ]
-    }
-
-    fn current_focus(&self) -> &str {
-        "Making AI agents trustworthy enough for the ICU"
     }
 }
 ```
@@ -241,34 +152,21 @@ impl Chester {
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![FHIR](https://img.shields.io/badge/FHIR_R4-E44D26?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![FHIR](https://img.shields.io/badge/FHIR_R4-FF6B35?style=for-the-badge)
 
 </div>
-
----
-
-### The Thesis
-
-> Most AI governance is **top-down** — policy documents, risk assessments, compliance checklists.
->
-> I believe governance should be **bottom-up** — enforced in code, at runtime, on every action, with cryptographic proof.
->
-> If you can't prove what your AI agent did, you can't trust it. If you can't trust it, you can't deploy it in healthcare.
->
-> **That's why I build runtimes, not reports.**
 
 ---
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chesterguan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true)
+<img src="https://github-readme-stats.vercel.app/api?username=Chesterguan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true" alt="stats"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Chesterguan&theme=github-dark-blue&hide_border=true)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Chesterguan&theme=github-dark-blue&hide_border=true" alt="streak"/>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Chesterguan&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
-
----
-
-*"Lightweight by conviction."*
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chesterguan&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="langs"/>
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer&animation=fadeIn"/>
