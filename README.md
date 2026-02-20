@@ -161,11 +161,24 @@ impl Chester {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Chesterguan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true" alt="stats"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chesterguan/Chesterguan/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chesterguan/Chesterguan/output/github-contribution-grid-snake.svg" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Chesterguan/Chesterguan/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Chesterguan&theme=github-dark-blue&hide_border=true" alt="streak"/>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chesterguan&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="langs"/>
+<a href="https://github.com/Chesterguan">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chesterguan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true" alt="stats"/>
+</a>
+<a href="https://github.com/Chesterguan">
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chesterguan&theme=github-dark-blue&hide_border=true" alt="streak"/>
+</a>
+
+<br/>
+
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chesterguan&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="langs"/>
 
 </div>
 
