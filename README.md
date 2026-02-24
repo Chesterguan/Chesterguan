@@ -102,7 +102,7 @@ I got tired of watching good models sit in Jupyter notebooks while clinicians st
 <p>Clinical scenarios as code. Write a patient case once, run it everywhere, get deterministic results.</p>
 </td>
 <td width="50%" valign="top">
-<h4>VERITAS &nbsp; <code>Rust</code> &nbsp; <em>(coming soon)</em></h4>
+<h4><a href="https://github.com/Chesterguan/veritas">VERITAS</a> &nbsp; <code>Rust</code> &nbsp; <em>(active)</em></h4>
 <p>Before an AI agent touches a patient record, VERITAS checks the policy, logs the action, and verifies the output. Every. Single. Time.</p>
 <ul>
 <li>Deny-by-default policy engine</li>
@@ -110,7 +110,7 @@ I got tired of watching good models sit in Jupyter notebooks while clinicians st
 <li>5 healthcare scenarios, 58 tests</li>
 <li><code>RequireApproval</code> = human stays in the loop</li>
 </ul>
-<h4>ClinicClaw &nbsp; <code>Rust</code> &nbsp; <em>(design phase)</em></h4>
+<h4><a href="https://github.com/Chesterguan/cliniclaw">ClinicClaw</a> &nbsp; <code>Rust</code> &nbsp; <em>(coming soon)</em></h4>
 <p>The actual hospital system. Real LLM calls, real FHIR, real clinical workflows — all governed by VERITAS.</p>
 <h4><a href="https://github.com/Chesterguan/AesculTwin">AesculTwin</a> &nbsp; <code>TypeScript</code> &nbsp; ⭐ 2</h4>
 <p>AI-powered surgeon assistance.</p>
