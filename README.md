@@ -69,7 +69,7 @@ I got tired of watching good models sit in Jupyter notebooks while clinicians st
 
 ```
   ┌──────────────────────────────────────────┐
-  │           ClinicClaw (coming soon)        │
+  │           ClinicClaw (active)        │
   │     AI agents that do real clinical work  │
   │   ambient docs · smart orders · prior auth│
   ├──────────────────────────────────────────┤
