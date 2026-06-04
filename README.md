@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://scholar.google.com/citations?user=VsYXfV8AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-300+_citations-4285F4?style=flat&logo=googlescholar&logoColor=white"/></a>
+<a href="https://scholar.google.com/citations?user=VsYXfV8AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-400+_citations-4285F4?style=flat&logo=googlescholar&logoColor=white"/></a>
 <a href="https://twitter.com/Chester_Guan16"><img src="https://img.shields.io/badge/𝕏-Chester__Guan16-000000?style=flat&logo=x"/></a>
 <a href="https://chesterguan.github.io/"><img src="https://img.shields.io/badge/Web-chesterguan.github.io-4285F4?style=flat&logo=googlechrome&logoColor=white"/></a>
 <a href="mailto:ziyuan.guan@ufl.edu"><img src="https://img.shields.io/badge/UF-Dept.%20of%20Medicine-FA4616?style=flat"/></a>
@@ -19,7 +19,7 @@
 
 I'm a researcher and engineer at the [University of Florida](https://ic3.center.ufl.edu/) — been here long enough to know the hospital WiFi passwords. I split my time between two labs: **IC3** (Intelligent Clinical Care Center) and **PRISMAp** (Precision & Intelligent Systems in Medicine).
 
-The short version: I build the data infrastructure and systems that make clinical AI actually work — ETL pipelines, EHR data wrangling, embedding models into production, making sure the data is clean and the systems stay up. I've been part of 25+ papers across [Nature Scientific Reports](https://www.nature.com/articles/s41598-025-22634-7), [JAMA Surgery](https://jamanetwork.com/journals/jamasurgery), [JMIR](https://medinform.jmir.org/), and ICLR workshops. 300+ citations. Multiple [NIH grants](https://reporter.nih.gov/) (R01, R21, K01, OT2) funded that work.
+The short version: I build the data infrastructure and systems that make clinical AI actually work — ETL pipelines, EHR data wrangling, embedding models into production, making sure the data is clean and the systems stay up. I've been part of 25+ papers across [Nature Scientific Reports](https://www.nature.com/articles/s41598-025-22634-7), [JAMA Surgery](https://jamanetwork.com/journals/jamasurgery), [JMIR](https://medinform.jmir.org/), and ICLR workshops. 400+ citations. Multiple [NIH grants](https://reporter.nih.gov/) (R01, R21, K01, OT2) funded that work.
 
 The thing is — someone has to take these models off the researchers' laptops and get them running in a real hospital. That's me. **Models don't save patients. Systems do.** So I build the plumbing, the guardrails, and the infrastructure that makes clinical AI deployable.
 
@@ -78,7 +78,7 @@ I got tired of watching good models sit in Jupyter notebooks while clinicians st
   │  deny-by-default · SHA-256 audit chain    │
   ├──────────────────────────────────────────┤
   │            HAVEN Protocol                  │
-  │    patients own their data. period.       │
+  │    Patients own their data. period.       │
   │   consent · provenance · value tracking   │
   ├──────────────────────────────────────────┤
   │          PSDL                              │
@@ -168,17 +168,7 @@ impl Chester {
 </picture>
 
 <br/>
-
-<a href="https://github.com/Chesterguan">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chesterguan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true" alt="stats"/>
-</a>
-<a href="https://github.com/Chesterguan">
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chesterguan&theme=github-dark-blue&hide_border=true" alt="streak"/>
-</a>
-
 <br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chesterguan&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="langs"/>
 
 </div>
 
