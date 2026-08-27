@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://scholar.google.com/citations?user=VsYXfV8AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-400+_citations-4285F4?style=flat&logo=googlescholar&logoColor=white"/></a>
+<a href="https://scholar.google.com/citations?user=VsYXfV8AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-500+_citations-4285F4?style=flat&logo=googlescholar&logoColor=white"/></a>
 <a href="https://twitter.com/Chester_Guan16"><img src="https://img.shields.io/badge/𝕏-Chester__Guan16-000000?style=flat&logo=x"/></a>
 <a href="https://chesterguan.github.io/"><img src="https://img.shields.io/badge/Web-chesterguan.github.io-4285F4?style=flat&logo=googlechrome&logoColor=white"/></a>
 <a href="mailto:ziyuan.guan@ufl.edu"><img src="https://img.shields.io/badge/UF-Dept.%20of%20Medicine-FA4616?style=flat"/></a>
